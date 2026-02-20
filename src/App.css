@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+
+:root{
+    --background-color-nav:#2F3E34;
+    --font-color-text:#FAF8F5;
+    --background-color-body:#d6d3ce;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  max-width: 100vw;
+  background-color: var(--background-color-body);
+}
+
+.single-page{
+  display:flex;
+  flex-direction: column;
+}

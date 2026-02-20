@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --background-color-nav:#2F3E34;
+    --font-color-text:#FAF8F5;
+    --background-color-body:#D6D3CE;
+    --font-color-head-text:#1F1F1F;
+}
+
+.contact-page{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    row-gap:2.5em;
+}
+
+/* Header */
+
+.contactpage-head{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: center;
+}
+
+.contact-header{
+    width: 50em;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top:2.5em;
+}
+
+/* Main */
+.contactpage-main{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color-nav);
+    height:810px;
+}
+
+.image-back{
+    display:flex;
+    flex-wrap:wrap;
+    background-image: url("/src/assets/images/alex-wong-l5Tzv1alcps-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 2em;
+    height:700px;
+}
+
+.form-section{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:700px;
+    color:var(--background-color-body);
+    margin-left:30px;
+}
+
+.quote-section{
+    width:523px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display',sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 5%;
+    text-align:center;
+    color:var(--font-color-text);
+    text-shadow: 3px 2px black;
+}
+
+.form-section div{
+    font-family:'Inter',sans-serif;
+    font-size:40px;
+    color:#ffff;
+    font-weight: 900;
+    text-shadow: 3px 2px black;
+    margin-top:1.5em;
+
+    input{
+        font-family:'Inter',sans-serif;
+        color:#ffff;
+        border:none;
+        background-color: transparent;
+        border-bottom: 2px solid white;
+        box-shadow: 0px 2px black;
+        font-size:20px;
+        width:100%;
+        font-weight: 600;
+    }
+}
+
+input:focus{
+    outline: none;
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+
+:root{
+    --background-color-nav:#2F3E34;
+    --font-color-text-nav:#FAF8F5;
+    --font-color-text-main:#1F1F1F;
+}
+
+.main-page{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 2.5em;
+}
+
+/* NavBar */
+
+
+.nav-bar{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: var(--background-color-nav);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-section{
+    display: flex;
+    margin-left:3em;
+    p{
+        font-family: 'Pacifico',sans-serif;
+        color:var(--font-color-text);
+        font-size:2.25em;
+    }
+}
+
+.link-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:3em;
+    a{
+        font-family:'Inter',sans-serif;
+        color:var(--font-color-text);
+        text-decoration: none;
+        font-size:1.5em;
+        margin-left:1.25em
+    }
+}
+
+
+/* Main Page _ Title*/
+
+.main{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 1em;
+}
+
+.heading-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width:44.125em;
+    row-gap:0.5em;
+}
+
+.heading{
+    font-size:3em;
+    font-family: 'Inter',sans-serif;
+    font-weight:900;
+    font-style: italic;
+    letter-spacing: 5%;
+    color:var(--font-color-text-main)
+}
+
+.description{
+    font-size:2em;
+    font-weight:400;
+    font-family:'Inter',sans-serif;
+    line-height: 1.5em;
+    color:var(--font-color-text-main)
+}
+
+
+/* Main Page _ Main */
+
+.options-section{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    column-gap: 2em;
+}
+
+.image-container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.8em;
+}
+
+.image-container img{
+    width:40em;
+    height: auto;
+    border-radius: 3em;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.options-section a{
+    text-decoration: none;
+    color:var(--font-color-text-main);
+    font-weight: 600;
+    font-family: 'Inter',sans-serif;
+    color:var(--font-color-text-main)
+}
+
+.options-section p{
+    text-align: center;
+    width:12em;
+    font-size:1.5em;
+}
