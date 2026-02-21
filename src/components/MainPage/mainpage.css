@@ -116,7 +116,7 @@
     box-shadow: 10px 10px 10px gray;
 }
 
-.options-section a{
+.options-section{
     text-decoration: none;
     color:var(--font-color-text-main);
     font-weight: 600;

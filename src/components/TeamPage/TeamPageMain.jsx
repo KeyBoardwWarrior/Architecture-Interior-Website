@@ -35,10 +35,10 @@ export default function TeamPageMain(){
 
             <div className="buttons-section">
                 <div className="left-btn">
-                    <button onClick={handleLeft}><img src="/src/assets/images/button-arrow-left.svg" alt="left-img"/></button> 
+                    <button onClick={handleLeft}><img src="/src/assets/images/arrow-left-direction-white-icon.webp" alt="left-img"/></button> 
                 </div>
                 <div className="right-btn">
-                    <button onClick={handleRight}><img src="/src/assets/images/button-arrow-left.svg" alt="right-img" style={{rotate:'180deg'}}></img></button> 
+                    <button onClick={handleRight}><img src="/src/assets/images/arrow-left-direction-white-icon.webp" alt="right-img" style={{rotate:'180deg'}}></img></button> 
                 </div>
             </div>
         </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 export default function NavBar(){
     return(
         <div className="nav-bar">
@@ -7,7 +8,7 @@ export default function NavBar(){
 
             <div className="link-section">
                 <div className="l1">
-                    <a href="#home">Home</a>
+                    <a href="#">Home</a>
                 </div>
 
                 <div className="l2">
@@ -19,7 +20,7 @@ export default function NavBar(){
                 </div>
 
                 <div className="l4">
-                    <a href="#about">About</a> 
+                    <a href="#about">About</a>
                 </div>
             </div>
         </div>

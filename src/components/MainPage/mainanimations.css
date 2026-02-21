@@ -48,8 +48,7 @@
 }
 
 .image-container img:hover{
-    transform: scale(1.03);
-    transition: transform 1.0s ease-out;
+    animation: updown 2s ease-in 0s infinite; 
 }
 
 .nav-bar {
@@ -63,7 +62,7 @@
   gap: 20px;
 }
 
-.link-section a {
+.link-section{
   position: relative;
   text-decoration: none;
   color: #FAF8F5;
@@ -71,7 +70,7 @@
   letter-spacing: 1px;
 }
 
-.link-section a::after {
+.link-section::after {
   content: "";
   position: absolute;
   left: 0;
@@ -82,9 +81,6 @@
   transition: width 0.4s ease;
 }
 
-.link-section a:hover::after {
-  width: 100%;
-}
 
 @keyframes navDrop {
   from {
@@ -99,4 +95,12 @@
 
 .nav-bar {
   animation: navDrop 2.0s cubic-bezier(0.25, 1, 0.3, 1) forwards;
+}
+
+@keyframes updown {
+  from{
+    transform: scale(1.03);
+  }to{
+    tranform:scale(1.0);
+  } 
 }

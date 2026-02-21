@@ -27,6 +27,9 @@ export default function ContactMain(){
                         <input type="text" name="type" id="type-field" /> 
                         </label> 
                     </div> 
+                    <div className="form-section-button">
+                        <button className="submit-btn">Submit</button> 
+                    </div>
                 </div> 
 
 

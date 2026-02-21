@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function MainContent(){
     return(
         <div className="main">
@@ -9,19 +10,19 @@ export default function MainContent(){
             </div>
 
             <div className="options-section">
-                <a href="#">
                     <div className="image-container">
-                        <img src="/src/assets/images/lance-anderson-QdAAasrZhdk-unsplash.jpg" alt="architecture-image" /> 
-                        <p>Check our Architecture Designs</p>
+                       <Link to="/architecture">
+                        <img src="/src/assets/images/MainPage/lance-anderson-QdAAasrZhdk-unsplash.jpg" alt="architecture-image" /> 
+                       </Link>                         
+                       <p>Check our Architecture Designs</p>
                     </div>
-                </a>
 
-                <a href="#">
                     <div className="image-container">
-                        <img src="/src/assets/images/3d-rendering-modern-dining-room-living-room-with-luxury-decor.jpg" alt="interior-image" /> 
+                        <Link to="/interior">
+                            <img src="/src/assets/images/MainPage/3d-rendering-modern-dining-room-living-room-with-luxury-decor.jpg" alt="interior-image" /> 
+                        </Link>
                         <p>Check our Interior Designs</p>
                     </div>
-                </a>
             </div>
         </div>
     );

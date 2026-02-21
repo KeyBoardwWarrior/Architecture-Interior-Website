@@ -1,32 +1,20 @@
-import MainPage from './components/MainPage/MainPage';
-import TeamPage from './components/TeamPage/TeamPage';
-import ContactPage from './components/ContactPage/ContactPage';
-import AboutPage from './components/AboutPage/AboutPage';
-import Footer from './components/Footer/Footer';
+import HomePage from './HomePage';
+import {Route,Routes} from "react-router-dom";
+import ArchitectureMainPage from './components/ArchitecturePage/ArchitectureMainPage';
+import InteriorMainPage from './components/InteriorPage/InteriorMainPage';
 import './App.css';
+
 function App() {
 
   return (
     <div className='single-page'>
-      <div id='main'>
-        <MainPage/> 
-      </div>
-
-      <div id='team'>
-      <TeamPage />
-      </div>
-
-      <div id='contact'>
-      <ContactPage />
-      </div>
-
-      <div id='about'>
-      <AboutPage/>
-      </div>
-
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<HomePage/>} /> 
+        <Route path="/architecture" element={<ArchitectureMainPage/>} /> 
+        <Route path="/interior" element={<InteriorMainPage/>} /> 
+      </Routes>
     </div>
-  )
+  );
 }
 
 export default App

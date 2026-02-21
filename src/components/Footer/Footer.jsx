@@ -1,4 +1,5 @@
 import './footer.css';
+import { Link } from 'react-router-dom';
 
 export default function Footer(){
     return(
@@ -22,11 +23,15 @@ export default function Footer(){
                         
                         <div className="footer-values">
                         <div>
-                            <p>Architecture Design</p> 
+                            <Link to="/architecture">
+                                <p>Architecture Design</p> 
+                            </Link>
                         </div> 
 
                         <div>
-                            <p>Interior Design</p> 
+                            <Link to="/interior">
+                                <p>Interior Design</p> 
+                            </Link>
                         </div> 
                         </div>
                     </div> 
@@ -64,10 +69,6 @@ export default function Footer(){
                         <div>
                             <p>Architecture Projects</p> 
                         </div> 
-
-                        <div>
-                            <p>Project Management</p> 
-                        </div> 
                         </div>
                     </div>
                 </div>
@@ -76,16 +77,16 @@ export default function Footer(){
             <div className="footer-down">
                 <div className="down-logo"> 
                     <div className="logo">
-                        <img src="/src/assets/images/icons8-facebook-50.png" alt="" />
+                        <img src="/src/assets/images/Footer/icons8-facebook-50.png" alt="" />
                     </div>
                     <div className="logo">
-                        <img src="/src/assets/images/icons8-instagram-50.png" alt="" />
+                        <img src="/src/assets/images/Footer/icons8-instagram-50.png" alt="" />
                     </div>
                     <div className="logo">
-                        <img src="/src/assets/images/icons8-linkedin-50.png" alt="" />
+                        <img src="/src/assets/images/Footer/icons8-linkedin-50.png" alt="" />
                     </div>
                     <div className="logo">
-                        <img src="/src/assets/images/icons8-whatsapp-50.png" alt="" />
+                        <img src="/src/assets/images/Footer/icons8-whatsapp-50.png" alt="" />
                     </div>
                 </div>
 
