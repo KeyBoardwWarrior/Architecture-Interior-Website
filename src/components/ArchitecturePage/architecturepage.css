@@ -29,7 +29,7 @@
     border:1px solid black;
     height: 300px;
     width: 100%;
-    background-image: url("/src/assets/images/ArchitecturePage/sean-pollock-PhYq704ffdA-unsplash.jpg");
+    background-image: url("/public/images/ArchitecturePage/sean-pollock-PhYq704ffdA-unsplash.jpg");
     background-size: cover;
     background-position-y:-555px;
     display:flex;

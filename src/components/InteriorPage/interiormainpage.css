@@ -29,7 +29,7 @@
     border:1px solid black;
     height: 300px;
     width: 100%;
-    background-image: url("/src/assets/images/InteriorPage/stefan-lehner-iZ5LgrUBx60-unsplash.jpg");
+    background-image: url("/public/images/InteriorPage/stefan-lehner-iZ5LgrUBx60-unsplash.jpg");
     background-size: cover;
     background-position-y:-255px;
     display:flex;

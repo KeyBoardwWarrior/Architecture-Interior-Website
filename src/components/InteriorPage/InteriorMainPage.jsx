@@ -7,7 +7,7 @@ export default function InteriorMainPage(){
                 <div className="button-section">
                     <button style={{backgroundColor:"transparent",border:"none"}}> 
                         <Link to="/">
-                            <img src="/src/assets/images/arrow-left-direction-white-icon.webp" alt="back" style={{width:"35px",height:"auto"}}/>
+                            <img src={import.meta.env.BASE_URL+"images/arrow-left-direction-white-icon.webp"} alt="back" style={{width:"35px",height:"auto"}}/>
                         </Link>
                     </button> 
                 </div>
@@ -25,7 +25,7 @@ export default function InteriorMainPage(){
             <div className="arch-main">
                 <div className="content-container">
                     <div className="content-image">
-                        <img src="/src/assets/images/InteriorPage/LivingRoom-unsplash.jpg" alt="image1" />
+                        <img src={import.meta.env.BASE_URL+"images/InteriorPage/LivingRoom-unsplash.jpg"} alt="image1" />
                     </div> 
 
                     <div className="content-description">
@@ -51,13 +51,13 @@ export default function InteriorMainPage(){
                     </div>
 
                     <div className="content-image">
-                        <img src="/src/assets/images/InteriorPage/spacejoy-nEtpvJjnPVo-unsplash.jpg" alt="image1" />
+                        <img src={import.meta.env.BASE_URL+"images/InteriorPage/spacejoy-nEtpvJjnPVo-unsplash.jpg"} alt="image1" />
                     </div> 
                 </div> 
 
                 <div className="content-container">
                     <div className="content-image">
-                        <img src="/src/assets/images/InteriorPage/kitchen-unsplash.jpg" alt="image1" />
+                        <img src={import.meta.env.BASE_URL+"images/InteriorPage/kitchen-unsplash.jpg"} alt="image1" />
                     </div> 
 
                     <div className="content-description">

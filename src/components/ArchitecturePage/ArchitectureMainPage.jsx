@@ -7,7 +7,7 @@ export default function ArchitectureMainPage(){
                 <div className="button-section">
                     <button style={{backgroundColor:"transparent",border:"none"}}> 
                         <Link to="/">
-                            <img src="/src/assets/images/arrow-left-direction-white-icon.webp" alt="back" style={{width:"35px",height:"auto"}}/>
+                            <img src={import.meta.env.BASE_URL+"images/arrow-left-direction-white-icon.webp"} alt="back" style={{width:"35px",height:"auto"}}/>
                         </Link>
                     </button> 
                 </div>
@@ -25,7 +25,7 @@ export default function ArchitectureMainPage(){
             <div className="arch-main">
                 <div className="content-container">
                     <div className="content-image">
-                        <img src="/src/assets/images/ArchitecturePage/huy-phan-JbE3wBQCjm0-unsplash.jpg" alt="image1" />
+                        <img src={import.meta.env.BASE_URL+"images/ArchitecturePage/huy-phan-JbE3wBQCjm0-unsplash.jpg"} alt="image1" />
                     </div> 
 
                     <div className="content-description">
@@ -51,13 +51,13 @@ export default function ArchitectureMainPage(){
                     </div>
 
                     <div className="content-image">
-                        <img src="/src/assets/images/ArchitecturePage/felix-P21wf6KAykw-unsplash.jpg" alt="image1" />
+                        <img src={import.meta.env.BASE_URL+"images/ArchitecturePage/felix-P21wf6KAykw-unsplash.jpg"} alt="image1" />
                     </div> 
                 </div> 
 
                 <div className="content-container">
                     <div className="content-image">
-                        <img src="/src/assets/images/ArchitecturePage/webaliser-_TPTXZd9mOo-unsplash.jpg" alt="image1" />
+                        <img src={import.meta.env.BASE_URL+"images/ArchitecturePage/webaliser-_TPTXZd9mOo-unsplash.jpg"} alt="image1" />
                     </div> 
 
                     <div className="content-description">

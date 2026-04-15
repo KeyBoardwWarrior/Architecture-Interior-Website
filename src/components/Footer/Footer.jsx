@@ -77,16 +77,16 @@ export default function Footer(){
             <div className="footer-down">
                 <div className="down-logo"> 
                     <div className="logo">
-                        <img src="/src/assets/images/Footer/icons8-facebook-50.png" alt="" />
+                        <img src={import.meta.env.BASE_URL+"images/Footer/icons8-facebook-50.png"} alt="" />
                     </div>
                     <div className="logo">
-                        <img src="/src/assets/images/Footer/icons8-instagram-50.png" alt="" />
+                        <img src={import.meta.env.BASE_URL+"images/Footer/icons8-instagram-50.png"} alt="" />
                     </div>
                     <div className="logo">
-                        <img src="/src/assets/images/Footer/icons8-linkedin-50.png" alt="" />
+                        <img src={import.meta.env.BASE_URL+"images/Footer/icons8-linkedin-50.png"} alt="" />
                     </div>
                     <div className="logo">
-                        <img src="/src/assets/images/Footer/icons8-whatsapp-50.png" alt="" />
+                        <img src={import.meta.env.BASE_URL+"images/Footer/icons8-whatsapp-50.png"} alt="" />
                     </div>
                 </div>
 

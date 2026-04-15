@@ -29,16 +29,16 @@ export default function TeamPageMain(){
                 </div> 
 
                 <div className="right-card">
-                    <img src={team_items.one[indexes.right][0]} alt="right" />
+                    <img src={import.meta.env.BASE_URL+team_items.one[indexes.right][0]} alt="right" />
                 </div> 
             </div>
 
             <div className="buttons-section">
                 <div className="left-btn">
-                    <button onClick={handleLeft}><img src="/src/assets/images/arrow-left-direction-white-icon.webp" alt="left-img"/></button> 
+                    <button onClick={handleLeft}><img src={import.meta.env.BASE_URL+"images/arrow-left-direction-white-icon.webp"} alt="left-img"/></button> 
                 </div>
                 <div className="right-btn">
-                    <button onClick={handleRight}><img src="/src/assets/images/arrow-left-direction-white-icon.webp" alt="right-img" style={{rotate:'180deg'}}></img></button> 
+                    <button onClick={handleRight}><img src={import.meta.env.BASE_URL+"images/arrow-left-direction-white-icon.webp"} alt="right-img" style={{rotate:'180deg'}}></img></button> 
                 </div>
             </div>
         </div>
